@@ -1,0 +1,27 @@
+{
+  "name": "personalbot",
+  "version": "1.0.0",
+  "description": "twitter bot for posting images.",
+  "main": "index.js",
+  "dependencies": {
+    "node-downloader-helper": "^1.0.13",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+   "start":"node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahdikhan786/personalBot.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "khansofficial",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/mahdikhan786/personalBot/issues"
+  },
+  "homepage": "https://github.com/mahdikhan786/personalBot#readme"
+}

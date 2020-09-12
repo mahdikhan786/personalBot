@@ -2,10 +2,10 @@ var Twit = require('twit')
 var fs = require('fs')
 var { DownloaderHelper } = require('node-downloader-helper');
 var T = new Twit({
-  consumer_key:         '4XjnTeRdGz4Ku9KBF7BTSDiKU',
-  consumer_secret:      'aKyCgo3mwgF3nf2KiZTTIu5tfX0TzSgsFCIMc81ZF9WV8B7ULU',
-  access_token:         '2285478440-qsFGy6fhJpkO7XcBgk4bWRDAxvHf7DnZbgJiuXa',
-  access_token_secret:  'zFYtvOj7jnwXYrP63sKRGy1vGjpnTj8V1XUSG1FbWngn2',
+  consumer_key:         'X4ObGFDfc7TqflnrkYLQMlxmT',
+  consumer_secret:      'z9oO25Vx212AtCAG3h4U8rjYOKe2TGiXOicm2dAQynn8935nVq',
+  access_token:         '2285478440-Q1H4woCbmCOLmn2WYvweWsSBdGoktIKDMAMWO4d',
+  access_token_secret:  'kjM6py62OZSoOOoSp8rPHOwTfKJxS1SPOtEjm1Hed9JuZ',
   timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
   strictSSL:            true,     // optional - requires SSL certificates to be valid.
 })
@@ -90,6 +90,6 @@ function postToTwitter(){
   dl.start().catch(err => {console.log('download failed')})
 
   i ++ ;
-},1800000)
+},180000)
 }
 postToTwitter();

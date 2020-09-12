@@ -90,6 +90,6 @@ function postToTwitter(){
   dl.start().catch(err => {console.log('download failed')})
 
   i ++ ;
-},180000)
+},1800000)
 }
 postToTwitter();
